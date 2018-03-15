@@ -49,7 +49,7 @@ apis:
   tags: Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/futures/master/_listings/xignite/listfutures-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/futures/master/_listings/xignite/listfuturesbycategory-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

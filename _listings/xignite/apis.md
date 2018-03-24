@@ -49,7 +49,7 @@ apis:
   tags: Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getdelayedfuturesbysession-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/gethistoricalfutures-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

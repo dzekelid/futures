@@ -36,8 +36,8 @@ tags:
 - Business
 - Bond Markets
 - Articles
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -49,7 +49,7 @@ apis:
   tags: Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutures-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfutures-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Xignite Futures
-  description: Provide delayed and historical commodity quote information from supported
-    exchanges (NYMEX...).
+  title: Xignite Futures Get All Delayed Futures By Session
+  description: Returns delayed quotes for all contracts for a commodity by exchange
+    session.
   version: 1.0.0
 host: www.xignite.com
 basePath: xFutures.json/XigniteFutures

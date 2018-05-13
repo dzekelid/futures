@@ -50,15 +50,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutures-post.md
-- name: Xignite Futures List Futures By Category
-  description: List futures information by byfuture category.
+- name: Xignite Futures List Futures By Exchange
+  description: List futures information by exchange.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
   tags: Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfuturesbycategory-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfuturesbyexchange-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

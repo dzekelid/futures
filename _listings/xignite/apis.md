@@ -50,15 +50,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutures-post.md
-- name: Xignite Futures Get Delayed Futures
-  description: Returns delayed quotes for multiple future contracts.
+- name: Xignite Futures Get All Delayed Futures By Session
+  description: Returns delayed quotes for all contracts for a commodity by exchange
+    session.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
   tags: Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getdelayedfutures-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getalldelayedfuturesbysession-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

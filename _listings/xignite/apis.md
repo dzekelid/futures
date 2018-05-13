@@ -50,15 +50,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutures-post.md
-- name: Xignite Futures Get Historical Futures
-  description: Returns historical quotes for multiple future contracts.
+- name: Xignite Futures Get All Historical Futures With Status
+  description: Returns historical quotes for all contracts for a commodity as of a
+    specific date including status information.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
   tags: Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/gethistoricalfutures-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutureswithstatus-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/

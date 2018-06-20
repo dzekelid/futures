@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Futures
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,40 +18,40 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//ListFutures
-  tags: List, Futures
+  tags: Market Data,List, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfutures-get-openapi.md
 - name: Xignite Futures List Futures By Category
   x-api-slug: xignite-futures
   description: List futures information by byfuture category.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//ListFuturesByCategory
-  tags: List, Futures, By, Category
+  tags: Market Data,List, Futures, By, Category
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfuturesbycategory-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfuturesbycategory-get-openapi.md
 - name: Xignite Futures List Futures By Exchange
   x-api-slug: xignite-futures
   description: List futures information by exchange.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//ListFuturesByExchange
-  tags: List, Futures, By, Exchange
+  tags: Market Data,List, Futures, By, Exchange
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfuturesbyexchange-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listfuturesbyexchange-get-openapi.md
 - name: Xignite Futures Get All Delayed Futures
   x-api-slug: xignite-futures
   description: Returns delayed quotes for all contracts for a commodity.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetAllDelayedFutures
-  tags: Delayed, Futures
+  tags: Market Data,Delayed, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getalldelayedfutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getalldelayedfutures-get-openapi.md
 - name: Xignite Futures Get Top Delayed Futures
   x-api-slug: xignite-futures
   description: Returns delayed quotes for a given number of contract (front-future
@@ -59,20 +59,20 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetTopDelayedFutures
-  tags: Top, Delayed, Futures
+  tags: Market Data,Top, Delayed, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/gettopdelayedfutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/gettopdelayedfutures-get-openapi.md
 - name: Xignite Futures Get Delayed Futures
   x-api-slug: xignite-futures
   description: Returns delayed quotes for multiple future contracts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetDelayedFutures
-  tags: Delayed, Futures
+  tags: Market Data,Delayed, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getdelayedfutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getdelayedfutures-get-openapi.md
 - name: Xignite Futures Get All Delayed Futures By Session
   x-api-slug: xignite-futures
   description: Returns delayed quotes for all contracts for a commodity by exchange
@@ -80,30 +80,30 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetAllDelayedFuturesBySession
-  tags: Delayed, Futures, By, Session
+  tags: Market Data,Delayed, Futures, By, Session
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getalldelayedfuturesbysession-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getalldelayedfuturesbysession-get-openapi.md
 - name: Xignite Futures Get Delayed Futures By Session
   x-api-slug: xignite-futures
   description: Returns delayed quotes for multiple future contracts by exchange session.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetDelayedFuturesBySession
-  tags: Delayed, Futures, By, Session
+  tags: Market Data,Delayed, Futures, By, Session
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getdelayedfuturesbysession-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getdelayedfuturesbysession-get-openapi.md
 - name: Xignite Futures Get Historical Futures
   x-api-slug: xignite-futures
   description: Returns historical quotes for multiple future contracts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetHistoricalFutures
-  tags: Historical, Futures
+  tags: Market Data,Historical, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/gethistoricalfutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/gethistoricalfutures-get-openapi.md
 - name: Xignite Futures Get All Historical Futures With Status
   x-api-slug: xignite-futures
   description: Returns historical quotes for all contracts for a commodity as of a
@@ -111,10 +111,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetAllHistoricalFuturesWithStatus
-  tags: Historical, Futures, With, Status
+  tags: Market Data,Historical, Futures, With, Status
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutureswithstatus-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutureswithstatus-get-openapi.md
 - name: Xignite Futures Get All Historical Futures
   x-api-slug: xignite-futures
   description: Returns historical quotes for all contracts for a commodity as of a
@@ -122,10 +122,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetAllHistoricalFutures
-  tags: Historical, Futures
+  tags: Market Data,Historical, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/getallhistoricalfutures-get-openapi.md
 - name: Xignite Futures
   x-api-slug: xignite-futures
   description: Financial market data on-demand. Xignite financial Web services help
@@ -146,7 +146,7 @@ apis:
   tags: List, Base, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listbasefutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listbasefutures-get-openapi.md
 - name: Xignite Global Futures Search Futures
   x-api-slug: xignite-global-futures
   description: Returns futures match the name
@@ -156,7 +156,7 @@ apis:
   tags: Search, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/searchfutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/searchfutures-get-openapi.md
 - name: Xignite Global Futures
   x-api-slug: xignite-global-futures
   description: Financial market data on-demand. Xignite financial Web services help
@@ -174,20 +174,20 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//ListBaseFutures
-  tags: List, Base, Futures
+  tags: Market Data,List, Base, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listbasefutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/listbasefutures-get-openapi.md
 - name: Xignite Global Real Time Futures Search Futures
   x-api-slug: xignite-global-real-time-futures
   description: Returns futures match the name
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://globalrealtimefutures.xignite.com/xGlobalRealTimeFutures.json/XigniteGlobalRealTimeFutures//SearchFutures
-  tags: Search, Futures
+  tags: Market Data,Search, Futures
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/searchfutures-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/searchfutures-get-openapi.md
 - name: Xignite Global Real Time Futures
   x-api-slug: xignite-global-real-time-futures
   description: Financial market data on-demand. Xignite financial Web services help
@@ -200,7 +200,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -260,6 +260,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []

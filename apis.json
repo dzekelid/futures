@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Futures",
+	"description": "This is a repository of futures APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/futures.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://futures.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Futures",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Barchart",
+			"x-api-slug": "barchart",
+			"description": "Barchart.com is the leading provider of intraday stock and commodities real-time or delayed charts with powerful indicators and technical analysis.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21632-www-barchart-com.jpg",
+			"humanURL": "https://www.barchart.com",
+			"baseURL": "https://marketdata.websol.barchart.com//",
+			"tags": "Futures",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/barchart/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Futures",
+	"include": [
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Barchart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/barchart/apis.yaml"
+		}
+	]
+}

@@ -7,36 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21632-www-
 x-kinRank: "7"
 x-alexaRank: "15739"
 tags: Futures
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/barchart/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Barchart API Get Futures by Exchange
-  x-api-slug: barchart-api
+- name: Barchart API - Get Futures by Exchange
+  x-api-slug: getfuturesbyexchange-json-get
   description: Receive all real-time or delayed, or end-of-day Futures data by exchange
     through a single onDemand query.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21632-www-barchart-com.jpg
   humanURL: https://www.barchart.com
-  baseURL: https://marketdata.websol.barchart.com////getFuturesByExchange.json
-  tags: Futures
+  baseURL: https://marketdata.websol.barchart.com//
+  tags: SaaS, Market Data, API Provider, Profiles, Publish, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/barchart/getfuturesbyexchange-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/barchart/getfuturesbyexchange-json-get-openapi.md
-- name: Barchart API
-  x-api-slug: barchart-api
-  description: Barchart.com is the leading provider of intraday stock and commodities
-    real-time or delayed charts with powerful indicators and technical analysis.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21632-www-barchart-com.jpg
-  humanURL: https://www.barchart.com
-  baseURL: https://marketdata.websol.barchart.com//
-  tags: Futures
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/futures/master/_listings/barchart/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bank.of.scotland.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://barchart.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/barchart-com
 - type: x-email
